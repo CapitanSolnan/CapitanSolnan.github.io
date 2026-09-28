@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2b2b2b;
+  color: #e0e0e0;
+}
+
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.seccion {
+  background-color: #424242;
+  border-radius: 20px;
+  padding: 30px;
+  border: 1px solid #5a5a5a;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.semititulo, 
+.seccion > p:first-child {
+  color: #00ff87;
+  font-family: monospace;
+  font-size: 0.95rem;
+  margin: 0 0 10px 0;
+}
+
+.titulo, h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #555;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+h3 {
+  color: #61afef;
+  margin-bottom: 8px;
+}
+
+.inicio {
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 4px solid #00ff87;
+}
+
+.inicio p {
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.divboton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.boton, button {
+  background-color: #525252;
+  color: #00ff87;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #00ff87;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.boton:hover, button:hover {
+  background-color: #00ff87;
+  color: #1e1e1e;
+}
+
+ul, ol {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+article {
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
+  border: 1px solid #4a4a4a;
+}
+
+article ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+article ul li {
+  background-color: #222;
+  color: #00ff87;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+article a {
+  color: #61afef;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #8e8e8e;
+  font-size: 0.9rem;
+}
+
+
+.habilitats-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; 
+  margin-bottom: 6px;
+}
+
+.habilitat {
+  background-color: #222;
+  color: #00ff87;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  width: fit-content;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.habilitat img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  display: block;
+}
+.formacio {
+  background-color: #222;
+  color: #00ff87;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+}
